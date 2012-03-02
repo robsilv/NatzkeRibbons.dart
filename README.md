@@ -8,6 +8,9 @@ This project ports [Erik Natzke's](http://blog.natzke.com/) Flash [Ribbons](http
 
 #### 03: Ribbons ####
 
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/07_Smooth_Side/Ribbon07.html">07 - Smooth Side</a><br />
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/06_Ribbon_Bumps/Ribbon06.html">06 - Ribbon Bumps</a><br />
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/05_Ribbon_Sides/Ribbon05.html">05 - Ribbon Sides</a><br />
 <a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/04_Ribbon_Side/Ribbon04.html">04 - Ribbon Side</a><br />
 <a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/03_Perpendicular_Lines/Ribbon03.html">03 - Perpendicular Lines</a><br />
 <a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/02_Red_Lines/Ribbon02.html">02 - Red Lines</a><br />
