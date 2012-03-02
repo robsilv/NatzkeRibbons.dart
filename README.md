@@ -3,7 +3,7 @@ NatzkeRibbons.dart
 
 #### Dart port of Erik Natzke's Ribbons ####
 
-This project ports [Erik Natzke's](http://blog.natzke.com/) Flash [Ribbons](http://www.natzke.com/source) to [Dart](http://www.dartlang.org/).
+This project ports [Erik Natzke's](http://blog.natzke.com/) Flash [Ribbons](http://www.natzke.com/source) to HTML5 Canvas, using the [Dart](http://www.dartlang.org/) language.
 
 
 #### 03: Ribbons ####
