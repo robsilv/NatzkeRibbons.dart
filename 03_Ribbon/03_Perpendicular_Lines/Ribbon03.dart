@@ -10,7 +10,7 @@
 
 #import('dart:html');
 
-class Ribbon01
+class Ribbon03
 {
   Element container;
   CanvasElement canvas;
@@ -31,7 +31,7 @@ class Ribbon01
   
   num wind;
   
-  Ribbon01() 
+  Ribbon03() 
   {
     
   }
@@ -131,18 +131,20 @@ class Ribbon01
         p.x = nb.x + maxDistance * Math.cos(p.angle);
         p.y = nb.y + maxDistance * Math.sin(p.angle);
         
-        p.xSpeed += (p.x-oldX) * .05;
-        p.ySpeed += (p.y-oldY) * .05;
+        p.xSpeed += (p.x-oldX) * .1;
+        p.ySpeed += (p.y-oldY) * .1;
       }
       
       p.midPointX = p.x + (nb.x-p.x)*.5;
       p.midPointY = p.y + (nb.y-p.y)*.5;
+      
+      p.angle += Math.PI*.5;
     }
     
     // RENDER
     context.clearRect(0, 0, canvas.width, canvas.height);
     
-    // Render Lines
+    // Render Ribbon Lines
     for ( int c = particleNum-1; c > min; c-- )
     {  
       Particle p = particles['p $c'];
@@ -161,8 +163,31 @@ class Ribbon01
       context.lineJoin = "round";
       context.lineCap = "round";
       context.strokeStyle = "#444444";
-      context.stroke();          
+      context.stroke();     
     }
+    
+    // Render Red Lines
+    for ( int c = particleNum-1; c > min; c-- )
+    {  
+      Particle p = particles['p $c'];
+      Particle nb = particles['p ${c+1}'];
+      
+      context.beginPath();
+      context.lineWidth = 1;
+      
+      if ( c == particleNum-1 ) {
+        context.moveTo(p.x, p.y);
+      } else {
+        context.moveTo(p.x+20*Math.cos(p.angle), p.y+20*Math.sin(p.angle));
+        context.lineTo(p.x-20*Math.cos(p.angle), p.y-20*Math.sin(p.angle));
+      }
+      
+      context.lineJoin = "round";
+      context.lineCap = "round";
+      context.strokeStyle = "#ff0000";
+      context.stroke();       
+    }    
+  
     
     /*
     // Render Mid Points
@@ -209,7 +234,7 @@ class Ribbon01
 }
 
 void main() {
-  new Ribbon01().run();
+  new Ribbon03().run();
 }
 
 
