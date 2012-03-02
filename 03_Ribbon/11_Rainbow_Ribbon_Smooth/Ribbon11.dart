@@ -10,7 +10,7 @@
 
 #import('dart:html');
 
-class Ribbon08
+class Ribbon11
 {
   Element container;
   CanvasElement canvas;
@@ -31,7 +31,7 @@ class Ribbon08
   
   num wind;
   
-  Ribbon08() 
+  Ribbon11() 
   {
     
   }
@@ -72,7 +72,7 @@ class Ribbon08
     num mag = Math.random()*2;
     num dir = Math.random()*Math.PI*2;
 
-    particles['p $particleNum'] = new Particle( mouseX, mouseY, Math.cos(dir)*mag, Math.sin(dir)*mag, Math.random()*20);
+    particles['p $particleNum'] = new Particle( mouseX, mouseY, Math.cos(dir)*mag, Math.sin(dir)*mag, Math.random()*20, Math.random()*0xFFFFFF);
     
     if ( particleNum > maxParticles ) {
       // Delete the particle object
@@ -167,32 +167,7 @@ class Ribbon08
       context.strokeStyle = "#444444";
       context.stroke();     
     }
-    
-    // Render Red Lines
-    for ( int c = particleNum-1; c > min; c-- )
-    {  
-      Particle p = particles['p $c'];
-      Particle nb = particles['p ${c+1}'];
-      
-      context.beginPath();
-      context.lineWidth = 1;
-      
-      if ( c == particleNum-1 ) {
-        context.moveTo(p.x, p.y);
-      } else {
-        num myAngle = p.angle + Math.PI*.5;
-        
-        context.moveTo(p.x+20*Math.cos(myAngle), p.y+20*Math.sin(myAngle));
-        context.lineTo(p.x-20*Math.cos(myAngle), p.y-20*Math.sin(myAngle));
-      }
-      
-      context.lineJoin = "round";
-      context.lineCap = "round";
-      context.strokeStyle = "#ff0000";
-      context.stroke();       
-    } 
-    
-    
+
 
     for ( int c = particleNum-1; c > min; c-- )
     {  
@@ -222,65 +197,26 @@ class Ribbon08
         Point point_df = new Point(point_d.x+(point_f.x-point_d.x)*.5, point_d.y+(point_f.y-point_d.y)*.5);       
   
        
-        // Render Green Mid Line
+        // Render Rainbow Ribbon
         context.beginPath();
-        context.lineWidth = 1;   
+        context.lineWidth = 1;
         
-        context.moveTo(point_ac.x, point_ac.y);
+        context.moveTo(point_bd.x, point_bd.y);
+        context.quadraticCurveTo(point_d.x, point_d.y, point_df.x, point_df.y);
+        
+        context.lineTo(point_ce.x, point_ce.y);
+        context.quadraticCurveTo(point_c.x, point_c.y, point_ac.x, point_ac.y);
+        
         context.lineTo(point_bd.x, point_bd.y);
         
+        
+        // End here, so it will pick up here.
+        context.moveTo(p.midPointX, p.midPointY);
+        
         context.lineJoin = "round";
         context.lineCap = "round";
-        context.strokeStyle = "#00ff55";
+        context.strokeStyle = p.color.toInt().toRadixString(16);
         context.stroke();
-        
-        // Render Purple Line
-        context.beginPath();
-        context.lineWidth = 4;   
-        
-        context.moveTo(point_ce.x, point_ce.y);
-        context.lineTo(point_df.x, point_df.y);
-        
-        context.lineJoin = "round";
-        context.lineCap = "round";
-        context.strokeStyle = "#D34FE3";
-        context.stroke();
-        
-        // Render Red Line
-        context.beginPath();
-        context.lineWidth = 1;   
-        
-        context.moveTo(point_a.x, point_a.y);
-        context.lineTo(point_b.x, point_b.y);
-        
-        context.lineJoin = "round";
-        context.lineCap = "round";
-        context.strokeStyle = "#FF3333";
-        context.stroke();
-        
-        // Render Blue Line
-        context.beginPath();
-        context.lineWidth = 4;   
-        
-        context.moveTo(point_c.x, point_c.y);
-        context.lineTo(point_d.x, point_d.y);
-        
-        context.lineJoin = "round";
-        context.lineCap = "round";
-        context.strokeStyle = "#5253E0";
-        context.stroke();
-    
-        // Render Yellow Line
-        context.beginPath();
-        context.lineWidth = 1;   
-        
-        context.moveTo(point_e.x, point_e.y);
-        context.lineTo(point_f.x, point_f.y);
-        
-        context.lineJoin = "round";
-        context.lineCap = "round";
-        context.strokeStyle = "#E0F141";
-        context.stroke();       
       }  
     }
     
@@ -308,16 +244,16 @@ class Ribbon08
 }
 
 void main() {
-  new Ribbon08().run();
+  new Ribbon11().run();
 }
 
 
 class Particle 
 {  
   num x, y, xSpeed, ySpeed, radius, angle,
-  midPointX, midPointY, midPointXB, midPointYB, distance;
+  midPointX, midPointY, midPointXB, midPointYB, distance, color;
   
-  Particle( num this.x, num this.y, [num this.xSpeed = 0, num this.ySpeed = 0, num this.radius = 0] )
+  Particle( num this.x, num this.y, [num this.xSpeed = 0, num this.ySpeed = 0, num this.radius = 0, this.color = 0xFFFFFF] )
   { 
   }
 }

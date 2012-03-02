@@ -309,6 +309,9 @@ NumImplementation.prototype.toInt = function() {
     if (truncated == -0.0) return 0;
     return truncated;
 }
+NumImplementation.prototype.toRadixString = function(radix) {
+  'use strict'; return this.toString(radix)
+}
 // ********** Code for Collections **************
 function Collections() {}
 Collections.collectionToString = function(c) {
@@ -5699,15 +5702,15 @@ function html_get$$document() {
   return $globals.secretDocument;
 }
 //  ********** Library C:\Users\Rob\NatzkeRibbons **************
-// ********** Code for Ribbon08 **************
-function Ribbon08() {
+// ********** Code for Ribbon11 **************
+function Ribbon11() {
   this.maxParticles = (25);
   this.maxDistance = (100);
   this.gravity = (0.5);
   this.airFriction = (0.97);
   this.ground = (600);
 }
-Ribbon08.prototype.run = function() {
+Ribbon11.prototype.run = function() {
   var $this = this; // closure support
   this.wind = (0);
   this.mouseX = (0);
@@ -5731,24 +5734,24 @@ Ribbon08.prototype.run = function() {
   }
   , (33.333333).toInt());
 }
-Ribbon08.prototype.onDocumentMouseMove = function(event) {
+Ribbon11.prototype.onDocumentMouseMove = function(event) {
   this.mouseX = event.get$pageX();
   this.mouseY = event.get$pageY();
 }
-Ribbon08.prototype.get$onDocumentMouseMove = function() {
+Ribbon11.prototype.get$onDocumentMouseMove = function() {
   return this.onDocumentMouseMove.bind(this);
 }
-Ribbon08.prototype.spawnParticle = function() {
+Ribbon11.prototype.spawnParticle = function() {
   var mag = Math.random() * (2);
   var dir = Math.random() * (3.141593) * (2);
-  this.particles.$setindex(("p " + this.particleNum), new Particle(this.mouseX, this.mouseY, Math.cos(dir) * mag, Math.sin(dir) * mag, Math.random() * (20)));
+  this.particles.$setindex(("p " + this.particleNum), new Particle(this.mouseX, this.mouseY, Math.cos(dir) * mag, Math.sin(dir) * mag, Math.random() * (20), Math.random() * (16777215)));
   if (this.particleNum > this.maxParticles) {
     var currParticle = this.particleNum - this.maxParticles;
     this.particles.remove(("p " + currParticle));
   }
   this.particleNum++;
 }
-Ribbon08.prototype.moveParticles = function() {
+Ribbon11.prototype.moveParticles = function() {
   var min = this.particleNum - this.maxParticles;
   if (min < (0)) min = (0);
   for (var c = this.particleNum - (1);
@@ -5756,7 +5759,7 @@ Ribbon08.prototype.moveParticles = function() {
     var p = this.particles.$index(("p " + c));
     var nb = this.particles.$index(("p " + (c + (1))));
     var nbB = this.particles.$index(("p " + (c - (1))));
-    if (null == nb) nb = new Particle(this.mouseX, this.mouseY, (0), (0), (0));
+    if (null == nb) nb = new Particle(this.mouseX, this.mouseY, (0), (0), (0), (16777215));
     p.xSpeed = p.xSpeed + this.wind;
     p.ySpeed = p.ySpeed + this.gravity;
     p.xSpeed = p.xSpeed * this.airFriction;
@@ -5813,25 +5816,6 @@ Ribbon08.prototype.moveParticles = function() {
    c > min; c--) {
     var p = this.particles.$index(("p " + c));
     var nb = this.particles.$index(("p " + (c + (1))));
-    this.context.beginPath();
-    this.context.set$lineWidth((1));
-    if (c == this.particleNum - (1)) {
-      this.context.moveTo(p.x, p.y);
-    }
-    else {
-      var myAngle = p.angle + (1.570796);
-      this.context.moveTo(p.x + (20) * Math.cos(myAngle), p.y + (20) * Math.sin(myAngle));
-      this.context.lineTo(p.x - (20) * Math.cos(myAngle), p.y - (20) * Math.sin(myAngle));
-    }
-    this.context.set$lineJoin("round");
-    this.context.set$lineCap("round");
-    this.context.set$strokeStyle("#ff0000");
-    this.context.stroke();
-  }
-  for (var c = this.particleNum - (1);
-   c > min; c--) {
-    var p = this.particles.$index(("p " + c));
-    var nb = this.particles.$index(("p " + (c + (1))));
     var nbB = this.particles.$index(("p " + (c - (1))));
     if (c == this.particleNum - (1)) {
       this.context.moveTo(p.x, p.y);
@@ -5849,43 +5833,15 @@ Ribbon08.prototype.moveParticles = function() {
       var point_df = PointFactoryProvider.Point$factory(point_d.get$x() + (point_f.get$x() - point_d.get$x()) * (0.5), point_d.get$y() + (point_f.get$y() - point_d.get$y()) * (0.5));
       this.context.beginPath();
       this.context.set$lineWidth((1));
-      this.context.moveTo(point_ac.get$x(), point_ac.get$y());
+      this.context.moveTo(point_bd.get$x(), point_bd.get$y());
+      this.context.quadraticCurveTo(point_d.get$x(), point_d.get$y(), point_df.get$x(), point_df.get$y());
+      this.context.lineTo(point_ce.get$x(), point_ce.get$y());
+      this.context.quadraticCurveTo(point_c.get$x(), point_c.get$y(), point_ac.get$x(), point_ac.get$y());
       this.context.lineTo(point_bd.get$x(), point_bd.get$y());
+      this.context.moveTo(p.midPointX, p.midPointY);
       this.context.set$lineJoin("round");
       this.context.set$lineCap("round");
-      this.context.set$strokeStyle("#00ff55");
-      this.context.stroke();
-      this.context.beginPath();
-      this.context.set$lineWidth((4));
-      this.context.moveTo(point_ce.get$x(), point_ce.get$y());
-      this.context.lineTo(point_df.get$x(), point_df.get$y());
-      this.context.set$lineJoin("round");
-      this.context.set$lineCap("round");
-      this.context.set$strokeStyle("#D34FE3");
-      this.context.stroke();
-      this.context.beginPath();
-      this.context.set$lineWidth((1));
-      this.context.moveTo(point_a.get$x(), point_a.get$y());
-      this.context.lineTo(point_b.get$x(), point_b.get$y());
-      this.context.set$lineJoin("round");
-      this.context.set$lineCap("round");
-      this.context.set$strokeStyle("#FF3333");
-      this.context.stroke();
-      this.context.beginPath();
-      this.context.set$lineWidth((4));
-      this.context.moveTo(point_c.get$x(), point_c.get$y());
-      this.context.lineTo(point_d.get$x(), point_d.get$y());
-      this.context.set$lineJoin("round");
-      this.context.set$lineCap("round");
-      this.context.set$strokeStyle("#5253E0");
-      this.context.stroke();
-      this.context.beginPath();
-      this.context.set$lineWidth((1));
-      this.context.moveTo(point_e.get$x(), point_e.get$y());
-      this.context.lineTo(point_f.get$x(), point_f.get$y());
-      this.context.set$lineJoin("round");
-      this.context.set$lineCap("round");
-      this.context.set$strokeStyle("#E0F141");
+      this.context.set$strokeStyle(p.color.toInt().toRadixString((16)));
       this.context.stroke();
     }
   }
@@ -5905,7 +5861,8 @@ Ribbon08.prototype.moveParticles = function() {
   }
 }
 // ********** Code for Particle **************
-function Particle(x, y, xSpeed, ySpeed, radius) {
+function Particle(x, y, xSpeed, ySpeed, radius, color) {
+  this.color = color;
   this.radius = radius;
   this.x = x;
   this.xSpeed = xSpeed;
@@ -5916,7 +5873,7 @@ Particle.prototype.get$x = function() { return this.x; };
 Particle.prototype.get$y = function() { return this.y; };
 // ********** Code for top level **************
 function main() {
-  new Ribbon08().run();
+  new Ribbon11().run();
 }
 // 149 dynamic types.
 // 504 types
