@@ -204,22 +204,22 @@ class Ribbon08
         context.moveTo(p.x, p.y);
       } else {
         
-        Point point_a = new Point(nbB.x+20*Math.cos(nbB.angle + Math.PI*.5), nbB.y+20*Math.sin(nbB.angle + Math.PI*.5));
-        Point point_b = new Point(nbB.x-20*Math.cos(nbB.angle + Math.PI*.5), nbB.y-20*Math.sin(nbB.angle + Math.PI*.5));
+        Point2D point_a = new Point2D(nbB.x+20*Math.cos(nbB.angle + Math.PI*.5), nbB.y+20*Math.sin(nbB.angle + Math.PI*.5));
+        Point2D point_b = new Point2D(nbB.x-20*Math.cos(nbB.angle + Math.PI*.5), nbB.y-20*Math.sin(nbB.angle + Math.PI*.5));
         
         
-        Point point_c = new Point(p.x+20*Math.cos(p.angle + Math.PI*.5), p.y+20*Math.sin(p.angle + Math.PI*.5));
-        Point point_d = new Point(p.x-20*Math.cos(p.angle + Math.PI*.5), p.y-20*Math.sin(p.angle + Math.PI*.5));
+        Point2D point_c = new Point2D(p.x+20*Math.cos(p.angle + Math.PI*.5), p.y+20*Math.sin(p.angle + Math.PI*.5));
+        Point2D point_d = new Point2D(p.x-20*Math.cos(p.angle + Math.PI*.5), p.y-20*Math.sin(p.angle + Math.PI*.5));
         
-        Point point_e = new Point(nb.x+20*Math.cos(nb.angle + Math.PI*.5), nb.y+20*Math.sin(nb.angle + Math.PI*.5));
-        Point point_f = new Point(nb.x-20*Math.cos(nb.angle + Math.PI*.5), nb.y-20*Math.sin(nb.angle + Math.PI*.5));
+        Point2D point_e = new Point2D(nb.x+20*Math.cos(nb.angle + Math.PI*.5), nb.y+20*Math.sin(nb.angle + Math.PI*.5));
+        Point2D point_f = new Point2D(nb.x-20*Math.cos(nb.angle + Math.PI*.5), nb.y-20*Math.sin(nb.angle + Math.PI*.5));
 
         
-        Point point_ac = new Point(point_a.x+(point_c.x-point_a.x)*.5, point_a.y+(point_c.y-point_a.y)*.5);
-        Point point_ce = new Point(point_c.x+(point_e.x-point_c.x)*.5, point_c.y+(point_e.y-point_c.y)*.5);
+        Point2D point_ac = new Point2D(point_a.x+(point_c.x-point_a.x)*.5, point_a.y+(point_c.y-point_a.y)*.5);
+        Point2D point_ce = new Point2D(point_c.x+(point_e.x-point_c.x)*.5, point_c.y+(point_e.y-point_c.y)*.5);
         
-        Point point_bd = new Point(point_b.x+(point_d.x-point_b.x)*.5, point_b.y+(point_d.y-point_b.y)*.5);
-        Point point_df = new Point(point_d.x+(point_f.x-point_d.x)*.5, point_d.y+(point_f.y-point_d.y)*.5);       
+        Point2D point_bd = new Point2D(point_b.x+(point_d.x-point_b.x)*.5, point_b.y+(point_d.y-point_b.y)*.5);
+        Point2D point_df = new Point2D(point_d.x+(point_f.x-point_d.x)*.5, point_d.y+(point_f.y-point_d.y)*.5);       
   
        
         // Render Green Mid Line
@@ -319,6 +319,16 @@ class Particle
   
   Particle( num this.x, num this.y, [num this.xSpeed = 0, num this.ySpeed = 0, num this.radius = 0] )
   { 
+  }
+}
+
+class Point2D
+{
+  num x, y;
+  
+  Point2D( [this.x = 0, this.y = 0] )
+  {
+    
   }
 }
 
