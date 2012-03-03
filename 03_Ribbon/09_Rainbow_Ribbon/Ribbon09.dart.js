@@ -1131,8 +1131,6 @@ $dynamic("get$height").HTMLImageElement = function() { return this.height; };
 $dynamic("set$height").HTMLImageElement = function(value) { return this.height = value; };
 $dynamic("get$width").HTMLImageElement = function() { return this.width; };
 $dynamic("set$width").HTMLImageElement = function(value) { return this.width = value; };
-$dynamic("get$x").HTMLImageElement = function() { return this.x; };
-$dynamic("get$y").HTMLImageElement = function() { return this.y; };
 // ********** Code for _HTMLInputElementJs **************
 // ********** Code for _HTMLKeygenElementJs **************
 // ********** Code for _HTMLLIElementJs **************
@@ -1333,8 +1331,6 @@ $dynamic("addEventListener$3").MessagePort = function($0, $1, $2) {
 };
 // ********** Code for _MetadataJs **************
 // ********** Code for _MouseEventJs **************
-$dynamic("get$x").MouseEvent = function() { return this.x; };
-$dynamic("get$y").MouseEvent = function() { return this.y; };
 // ********** Code for _MutationEventJs **************
 // ********** Code for _NamedNodeMapJs **************
 $dynamic("is$List").NamedNodeMap = function(){return true};
@@ -1414,8 +1410,6 @@ $dynamic("get$length").SQLResultSetRowList = function() { return this.length; };
 // ********** Code for _SVGAltGlyphDefElementJs **************
 // ********** Code for _SVGTextContentElementJs **************
 // ********** Code for _SVGTextPositioningElementJs **************
-$dynamic("get$x").SVGTextPositioningElement = function() { return this.x; };
-$dynamic("get$y").SVGTextPositioningElement = function() { return this.y; };
 // ********** Code for _SVGAltGlyphElementJs **************
 // ********** Code for _SVGAltGlyphItemElementJs **************
 // ********** Code for _SVGAngleJs **************
@@ -1441,8 +1435,6 @@ $dynamic("get$y").SVGTextPositioningElement = function() { return this.y; };
 // ********** Code for _SVGColorJs **************
 // ********** Code for _SVGComponentTransferFunctionElementJs **************
 // ********** Code for _SVGCursorElementJs **************
-$dynamic("get$x").SVGCursorElement = function() { return this.x; };
-$dynamic("get$y").SVGCursorElement = function() { return this.y; };
 // ********** Code for _SVGDefsElementJs **************
 // ********** Code for _SVGDescElementJs **************
 // ********** Code for _SVGDocumentJs **************
@@ -1461,49 +1453,31 @@ $dynamic("get$length").SVGElementInstanceList = function() { return this.length;
 // ********** Code for _SVGFEBlendElementJs **************
 $dynamic("get$height").SVGFEBlendElement = function() { return this.height; };
 $dynamic("get$width").SVGFEBlendElement = function() { return this.width; };
-$dynamic("get$x").SVGFEBlendElement = function() { return this.x; };
-$dynamic("get$y").SVGFEBlendElement = function() { return this.y; };
 // ********** Code for _SVGFEColorMatrixElementJs **************
 $dynamic("get$height").SVGFEColorMatrixElement = function() { return this.height; };
 $dynamic("get$width").SVGFEColorMatrixElement = function() { return this.width; };
-$dynamic("get$x").SVGFEColorMatrixElement = function() { return this.x; };
-$dynamic("get$y").SVGFEColorMatrixElement = function() { return this.y; };
 // ********** Code for _SVGFEComponentTransferElementJs **************
 $dynamic("get$height").SVGFEComponentTransferElement = function() { return this.height; };
 $dynamic("get$width").SVGFEComponentTransferElement = function() { return this.width; };
-$dynamic("get$x").SVGFEComponentTransferElement = function() { return this.x; };
-$dynamic("get$y").SVGFEComponentTransferElement = function() { return this.y; };
 // ********** Code for _SVGFECompositeElementJs **************
 $dynamic("get$height").SVGFECompositeElement = function() { return this.height; };
 $dynamic("get$width").SVGFECompositeElement = function() { return this.width; };
-$dynamic("get$x").SVGFECompositeElement = function() { return this.x; };
-$dynamic("get$y").SVGFECompositeElement = function() { return this.y; };
 // ********** Code for _SVGFEConvolveMatrixElementJs **************
 $dynamic("get$height").SVGFEConvolveMatrixElement = function() { return this.height; };
 $dynamic("get$width").SVGFEConvolveMatrixElement = function() { return this.width; };
-$dynamic("get$x").SVGFEConvolveMatrixElement = function() { return this.x; };
-$dynamic("get$y").SVGFEConvolveMatrixElement = function() { return this.y; };
 // ********** Code for _SVGFEDiffuseLightingElementJs **************
 $dynamic("get$height").SVGFEDiffuseLightingElement = function() { return this.height; };
 $dynamic("get$width").SVGFEDiffuseLightingElement = function() { return this.width; };
-$dynamic("get$x").SVGFEDiffuseLightingElement = function() { return this.x; };
-$dynamic("get$y").SVGFEDiffuseLightingElement = function() { return this.y; };
 // ********** Code for _SVGFEDisplacementMapElementJs **************
 $dynamic("get$height").SVGFEDisplacementMapElement = function() { return this.height; };
 $dynamic("get$width").SVGFEDisplacementMapElement = function() { return this.width; };
-$dynamic("get$x").SVGFEDisplacementMapElement = function() { return this.x; };
-$dynamic("get$y").SVGFEDisplacementMapElement = function() { return this.y; };
 // ********** Code for _SVGFEDistantLightElementJs **************
 // ********** Code for _SVGFEDropShadowElementJs **************
 $dynamic("get$height").SVGFEDropShadowElement = function() { return this.height; };
 $dynamic("get$width").SVGFEDropShadowElement = function() { return this.width; };
-$dynamic("get$x").SVGFEDropShadowElement = function() { return this.x; };
-$dynamic("get$y").SVGFEDropShadowElement = function() { return this.y; };
 // ********** Code for _SVGFEFloodElementJs **************
 $dynamic("get$height").SVGFEFloodElement = function() { return this.height; };
 $dynamic("get$width").SVGFEFloodElement = function() { return this.width; };
-$dynamic("get$x").SVGFEFloodElement = function() { return this.x; };
-$dynamic("get$y").SVGFEFloodElement = function() { return this.y; };
 // ********** Code for _SVGFEFuncAElementJs **************
 // ********** Code for _SVGFEFuncBElementJs **************
 // ********** Code for _SVGFEFuncGElementJs **************
@@ -1511,61 +1485,37 @@ $dynamic("get$y").SVGFEFloodElement = function() { return this.y; };
 // ********** Code for _SVGFEGaussianBlurElementJs **************
 $dynamic("get$height").SVGFEGaussianBlurElement = function() { return this.height; };
 $dynamic("get$width").SVGFEGaussianBlurElement = function() { return this.width; };
-$dynamic("get$x").SVGFEGaussianBlurElement = function() { return this.x; };
-$dynamic("get$y").SVGFEGaussianBlurElement = function() { return this.y; };
 // ********** Code for _SVGFEImageElementJs **************
 $dynamic("get$height").SVGFEImageElement = function() { return this.height; };
 $dynamic("get$width").SVGFEImageElement = function() { return this.width; };
-$dynamic("get$x").SVGFEImageElement = function() { return this.x; };
-$dynamic("get$y").SVGFEImageElement = function() { return this.y; };
 // ********** Code for _SVGFEMergeElementJs **************
 $dynamic("get$height").SVGFEMergeElement = function() { return this.height; };
 $dynamic("get$width").SVGFEMergeElement = function() { return this.width; };
-$dynamic("get$x").SVGFEMergeElement = function() { return this.x; };
-$dynamic("get$y").SVGFEMergeElement = function() { return this.y; };
 // ********** Code for _SVGFEMergeNodeElementJs **************
 // ********** Code for _SVGFEMorphologyElementJs **************
 $dynamic("get$height").SVGFEMorphologyElement = function() { return this.height; };
 $dynamic("get$width").SVGFEMorphologyElement = function() { return this.width; };
-$dynamic("get$x").SVGFEMorphologyElement = function() { return this.x; };
-$dynamic("get$y").SVGFEMorphologyElement = function() { return this.y; };
 // ********** Code for _SVGFEOffsetElementJs **************
 $dynamic("get$height").SVGFEOffsetElement = function() { return this.height; };
 $dynamic("get$width").SVGFEOffsetElement = function() { return this.width; };
-$dynamic("get$x").SVGFEOffsetElement = function() { return this.x; };
-$dynamic("get$y").SVGFEOffsetElement = function() { return this.y; };
 // ********** Code for _SVGFEPointLightElementJs **************
-$dynamic("get$x").SVGFEPointLightElement = function() { return this.x; };
-$dynamic("get$y").SVGFEPointLightElement = function() { return this.y; };
 // ********** Code for _SVGFESpecularLightingElementJs **************
 $dynamic("get$height").SVGFESpecularLightingElement = function() { return this.height; };
 $dynamic("get$width").SVGFESpecularLightingElement = function() { return this.width; };
-$dynamic("get$x").SVGFESpecularLightingElement = function() { return this.x; };
-$dynamic("get$y").SVGFESpecularLightingElement = function() { return this.y; };
 // ********** Code for _SVGFESpotLightElementJs **************
-$dynamic("get$x").SVGFESpotLightElement = function() { return this.x; };
-$dynamic("get$y").SVGFESpotLightElement = function() { return this.y; };
 // ********** Code for _SVGFETileElementJs **************
 $dynamic("get$height").SVGFETileElement = function() { return this.height; };
 $dynamic("get$width").SVGFETileElement = function() { return this.width; };
-$dynamic("get$x").SVGFETileElement = function() { return this.x; };
-$dynamic("get$y").SVGFETileElement = function() { return this.y; };
 // ********** Code for _SVGFETurbulenceElementJs **************
 $dynamic("get$height").SVGFETurbulenceElement = function() { return this.height; };
 $dynamic("get$width").SVGFETurbulenceElement = function() { return this.width; };
-$dynamic("get$x").SVGFETurbulenceElement = function() { return this.x; };
-$dynamic("get$y").SVGFETurbulenceElement = function() { return this.y; };
 // ********** Code for _SVGFilterElementJs **************
 $dynamic("get$height").SVGFilterElement = function() { return this.height; };
 $dynamic("get$width").SVGFilterElement = function() { return this.width; };
-$dynamic("get$x").SVGFilterElement = function() { return this.x; };
-$dynamic("get$y").SVGFilterElement = function() { return this.y; };
 // ********** Code for _SVGStylableJs **************
 // ********** Code for _SVGFilterPrimitiveStandardAttributesJs **************
 $dynamic("get$height").SVGFilterPrimitiveStandardAttributes = function() { return this.height; };
 $dynamic("get$width").SVGFilterPrimitiveStandardAttributes = function() { return this.width; };
-$dynamic("get$x").SVGFilterPrimitiveStandardAttributes = function() { return this.x; };
-$dynamic("get$y").SVGFilterPrimitiveStandardAttributes = function() { return this.y; };
 // ********** Code for _SVGFitToViewBoxJs **************
 // ********** Code for _SVGFontElementJs **************
 // ********** Code for _SVGFontFaceElementJs **************
@@ -1576,20 +1526,14 @@ $dynamic("get$y").SVGFilterPrimitiveStandardAttributes = function() { return thi
 // ********** Code for _SVGForeignObjectElementJs **************
 $dynamic("get$height").SVGForeignObjectElement = function() { return this.height; };
 $dynamic("get$width").SVGForeignObjectElement = function() { return this.width; };
-$dynamic("get$x").SVGForeignObjectElement = function() { return this.x; };
-$dynamic("get$y").SVGForeignObjectElement = function() { return this.y; };
 // ********** Code for _SVGGElementJs **************
 // ********** Code for _SVGGlyphElementJs **************
 // ********** Code for _SVGGlyphRefElementJs **************
-$dynamic("get$x").SVGGlyphRefElement = function() { return this.x; };
-$dynamic("get$y").SVGGlyphRefElement = function() { return this.y; };
 // ********** Code for _SVGGradientElementJs **************
 // ********** Code for _SVGHKernElementJs **************
 // ********** Code for _SVGImageElementJs **************
 $dynamic("get$height").SVGImageElement = function() { return this.height; };
 $dynamic("get$width").SVGImageElement = function() { return this.width; };
-$dynamic("get$x").SVGImageElement = function() { return this.x; };
-$dynamic("get$y").SVGImageElement = function() { return this.y; };
 // ********** Code for _SVGLangSpaceJs **************
 // ********** Code for _SVGLengthJs **************
 // ********** Code for _SVGLengthListJs **************
@@ -1601,8 +1545,6 @@ $dynamic("get$y").SVGImageElement = function() { return this.y; };
 // ********** Code for _SVGMaskElementJs **************
 $dynamic("get$height").SVGMaskElement = function() { return this.height; };
 $dynamic("get$width").SVGMaskElement = function() { return this.width; };
-$dynamic("get$x").SVGMaskElement = function() { return this.x; };
-$dynamic("get$y").SVGMaskElement = function() { return this.y; };
 // ********** Code for _SVGMatrixJs **************
 // ********** Code for _SVGMetadataElementJs **************
 // ********** Code for _SVGMissingGlyphElementJs **************
@@ -1612,65 +1554,29 @@ $dynamic("get$y").SVGMaskElement = function() { return this.y; };
 // ********** Code for _SVGPathElementJs **************
 // ********** Code for _SVGPathSegJs **************
 // ********** Code for _SVGPathSegArcAbsJs **************
-$dynamic("get$x").SVGPathSegArcAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegArcAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegArcRelJs **************
-$dynamic("get$x").SVGPathSegArcRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegArcRel = function() { return this.y; };
 // ********** Code for _SVGPathSegClosePathJs **************
 // ********** Code for _SVGPathSegCurvetoCubicAbsJs **************
-$dynamic("get$x").SVGPathSegCurvetoCubicAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoCubicAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoCubicRelJs **************
-$dynamic("get$x").SVGPathSegCurvetoCubicRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoCubicRel = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoCubicSmoothAbsJs **************
-$dynamic("get$x").SVGPathSegCurvetoCubicSmoothAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoCubicSmoothAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoCubicSmoothRelJs **************
-$dynamic("get$x").SVGPathSegCurvetoCubicSmoothRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoCubicSmoothRel = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoQuadraticAbsJs **************
-$dynamic("get$x").SVGPathSegCurvetoQuadraticAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoQuadraticAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoQuadraticRelJs **************
-$dynamic("get$x").SVGPathSegCurvetoQuadraticRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoQuadraticRel = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoQuadraticSmoothAbsJs **************
-$dynamic("get$x").SVGPathSegCurvetoQuadraticSmoothAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoQuadraticSmoothAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegCurvetoQuadraticSmoothRelJs **************
-$dynamic("get$x").SVGPathSegCurvetoQuadraticSmoothRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegCurvetoQuadraticSmoothRel = function() { return this.y; };
 // ********** Code for _SVGPathSegLinetoAbsJs **************
-$dynamic("get$x").SVGPathSegLinetoAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegLinetoAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegLinetoHorizontalAbsJs **************
-$dynamic("get$x").SVGPathSegLinetoHorizontalAbs = function() { return this.x; };
 // ********** Code for _SVGPathSegLinetoHorizontalRelJs **************
-$dynamic("get$x").SVGPathSegLinetoHorizontalRel = function() { return this.x; };
 // ********** Code for _SVGPathSegLinetoRelJs **************
-$dynamic("get$x").SVGPathSegLinetoRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegLinetoRel = function() { return this.y; };
 // ********** Code for _SVGPathSegLinetoVerticalAbsJs **************
-$dynamic("get$y").SVGPathSegLinetoVerticalAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegLinetoVerticalRelJs **************
-$dynamic("get$y").SVGPathSegLinetoVerticalRel = function() { return this.y; };
 // ********** Code for _SVGPathSegListJs **************
 // ********** Code for _SVGPathSegMovetoAbsJs **************
-$dynamic("get$x").SVGPathSegMovetoAbs = function() { return this.x; };
-$dynamic("get$y").SVGPathSegMovetoAbs = function() { return this.y; };
 // ********** Code for _SVGPathSegMovetoRelJs **************
-$dynamic("get$x").SVGPathSegMovetoRel = function() { return this.x; };
-$dynamic("get$y").SVGPathSegMovetoRel = function() { return this.y; };
 // ********** Code for _SVGPatternElementJs **************
 $dynamic("get$height").SVGPatternElement = function() { return this.height; };
 $dynamic("get$width").SVGPatternElement = function() { return this.width; };
-$dynamic("get$x").SVGPatternElement = function() { return this.x; };
-$dynamic("get$y").SVGPatternElement = function() { return this.y; };
 // ********** Code for _SVGPointJs **************
-$dynamic("get$x").SVGPoint = function() { return this.x; };
-$dynamic("get$y").SVGPoint = function() { return this.y; };
 // ********** Code for _SVGPointListJs **************
 // ********** Code for _SVGPolygonElementJs **************
 // ********** Code for _SVGPolylineElementJs **************
@@ -1681,19 +1587,13 @@ $dynamic("get$height").SVGRect = function() { return this.height; };
 $dynamic("set$height").SVGRect = function(value) { return this.height = value; };
 $dynamic("get$width").SVGRect = function() { return this.width; };
 $dynamic("set$width").SVGRect = function(value) { return this.width = value; };
-$dynamic("get$x").SVGRect = function() { return this.x; };
-$dynamic("get$y").SVGRect = function() { return this.y; };
 // ********** Code for _SVGRectElementJs **************
 $dynamic("get$height").SVGRectElement = function() { return this.height; };
 $dynamic("get$width").SVGRectElement = function() { return this.width; };
-$dynamic("get$x").SVGRectElement = function() { return this.x; };
-$dynamic("get$y").SVGRectElement = function() { return this.y; };
 // ********** Code for _SVGRenderingIntentJs **************
 // ********** Code for _SVGSVGElementJs **************
 $dynamic("get$height").SVGSVGElement = function() { return this.height; };
 $dynamic("get$width").SVGSVGElement = function() { return this.width; };
-$dynamic("get$x").SVGSVGElement = function() { return this.x; };
-$dynamic("get$y").SVGSVGElement = function() { return this.y; };
 // ********** Code for _SVGScriptElementJs **************
 // ********** Code for _SVGSetElementJs **************
 // ********** Code for _SVGStopElementJs **************
@@ -1715,8 +1615,6 @@ $dynamic("get$y").SVGSVGElement = function() { return this.y; };
 // ********** Code for _SVGUseElementJs **************
 $dynamic("get$height").SVGUseElement = function() { return this.height; };
 $dynamic("get$width").SVGUseElement = function() { return this.width; };
-$dynamic("get$x").SVGUseElement = function() { return this.x; };
-$dynamic("get$y").SVGUseElement = function() { return this.y; };
 // ********** Code for _SVGVKernElementJs **************
 // ********** Code for _SVGViewElementJs **************
 // ********** Code for _SVGZoomAndPanJs **************
@@ -1921,16 +1819,12 @@ $dynamic("get$length").WebKitAnimationList = function() { return this.length; };
 // ********** Code for _WebKitCSSTransformValueJs **************
 // ********** Code for _WebKitNamedFlowJs **************
 // ********** Code for _WebKitPointJs **************
-$dynamic("get$x").WebKitPoint = function() { return this.x; };
-$dynamic("get$y").WebKitPoint = function() { return this.y; };
 // ********** Code for _WebKitTransitionEventJs **************
 // ********** Code for _WebSocketJs **************
 $dynamic("addEventListener$3").WebSocket = function($0, $1, $2) {
   return this.addEventListener($0, $wrap_call$1(to$call$1($1)), $2);
 };
 // ********** Code for _WheelEventJs **************
-$dynamic("get$x").WheelEvent = function() { return this.x; };
-$dynamic("get$y").WheelEvent = function() { return this.y; };
 // ********** Code for _WorkerJs **************
 // ********** Code for _WorkerLocationJs **************
 // ********** Code for _WorkerNavigatorJs **************
@@ -2001,9 +1895,6 @@ function _AudioContextFactoryProvider() {}
 function _TypedArrayFactoryProvider() {}
 // ********** Code for _WebKitPointFactoryProvider **************
 function _WebKitPointFactoryProvider() {}
-_WebKitPointFactoryProvider.WebKitPoint$factory = function(x, y) {
-  return new WebKitPoint(x, y);
-}
 // ********** Code for _WebSocketFactoryProvider **************
 function _WebSocketFactoryProvider() {}
 // ********** Code for _VariableSizeListIterator **************
@@ -2488,12 +2379,6 @@ ImageElementWrappingImplementation.prototype.get$width = function() {
 ImageElementWrappingImplementation.prototype.set$width = function(value) {
   this._ptr.set$width(value);
 }
-ImageElementWrappingImplementation.prototype.get$x = function() {
-  return this._ptr.get$x();
-}
-ImageElementWrappingImplementation.prototype.get$y = function() {
-  return this._ptr.get$y();
-}
 // ********** Code for InputElementWrappingImplementation **************
 $inherits(InputElementWrappingImplementation, ElementWrappingImplementation);
 InputElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2646,19 +2531,6 @@ ParamElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 ParamElementWrappingImplementation._wrap$ctor.prototype = ParamElementWrappingImplementation.prototype;
 function ParamElementWrappingImplementation() {}
-// ********** Code for PointWrappingImplementation **************
-$inherits(PointWrappingImplementation, DOMWrapperBase);
-PointWrappingImplementation._wrap$ctor = function(ptr) {
-  DOMWrapperBase._wrap$ctor.call(this, ptr);
-}
-PointWrappingImplementation._wrap$ctor.prototype = PointWrappingImplementation.prototype;
-function PointWrappingImplementation() {}
-PointWrappingImplementation.prototype.get$x = function() {
-  return this._ptr.get$x();
-}
-PointWrappingImplementation.prototype.get$y = function() {
-  return this._ptr.get$y();
-}
 // ********** Code for PreElementWrappingImplementation **************
 $inherits(PreElementWrappingImplementation, ElementWrappingImplementation);
 PreElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2728,12 +2600,6 @@ SVGTextPositioningElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGTextPositioningElementWrappingImplementation._wrap$ctor.prototype = SVGTextPositioningElementWrappingImplementation.prototype;
 function SVGTextPositioningElementWrappingImplementation() {}
-SVGTextPositioningElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLengthList(this._ptr.get$x());
-}
-SVGTextPositioningElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLengthList(this._ptr.get$y());
-}
 // ********** Code for SVGAltGlyphElementWrappingImplementation **************
 $inherits(SVGAltGlyphElementWrappingImplementation, SVGTextPositioningElementWrappingImplementation);
 SVGAltGlyphElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2783,13 +2649,6 @@ SVGAnimateTransformElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGAnimateTransformElementWrappingImplementation._wrap$ctor.prototype = SVGAnimateTransformElementWrappingImplementation.prototype;
 function SVGAnimateTransformElementWrappingImplementation() {}
-// ********** Code for SVGAnimatedLengthListWrappingImplementation **************
-$inherits(SVGAnimatedLengthListWrappingImplementation, DOMWrapperBase);
-SVGAnimatedLengthListWrappingImplementation._wrap$ctor = function(ptr) {
-  DOMWrapperBase._wrap$ctor.call(this, ptr);
-}
-SVGAnimatedLengthListWrappingImplementation._wrap$ctor.prototype = SVGAnimatedLengthListWrappingImplementation.prototype;
-function SVGAnimatedLengthListWrappingImplementation() {}
 // ********** Code for SVGAnimatedLengthWrappingImplementation **************
 $inherits(SVGAnimatedLengthWrappingImplementation, DOMWrapperBase);
 SVGAnimatedLengthWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2797,13 +2656,6 @@ SVGAnimatedLengthWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGAnimatedLengthWrappingImplementation._wrap$ctor.prototype = SVGAnimatedLengthWrappingImplementation.prototype;
 function SVGAnimatedLengthWrappingImplementation() {}
-// ********** Code for SVGAnimatedNumberWrappingImplementation **************
-$inherits(SVGAnimatedNumberWrappingImplementation, DOMWrapperBase);
-SVGAnimatedNumberWrappingImplementation._wrap$ctor = function(ptr) {
-  DOMWrapperBase._wrap$ctor.call(this, ptr);
-}
-SVGAnimatedNumberWrappingImplementation._wrap$ctor.prototype = SVGAnimatedNumberWrappingImplementation.prototype;
-function SVGAnimatedNumberWrappingImplementation() {}
 // ********** Code for SVGCircleElementWrappingImplementation **************
 $inherits(SVGCircleElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGCircleElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2832,12 +2684,6 @@ SVGCursorElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGCursorElementWrappingImplementation._wrap$ctor.prototype = SVGCursorElementWrappingImplementation.prototype;
 function SVGCursorElementWrappingImplementation() {}
-SVGCursorElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGCursorElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGDefsElementWrappingImplementation **************
 $inherits(SVGDefsElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGDefsElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2872,12 +2718,6 @@ SVGFEBlendElementWrappingImplementation.prototype.get$height = function() {
 SVGFEBlendElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEBlendElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEBlendElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEColorMatrixElementWrappingImplementation **************
 $inherits(SVGFEColorMatrixElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEColorMatrixElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2890,12 +2730,6 @@ SVGFEColorMatrixElementWrappingImplementation.prototype.get$height = function() 
 }
 SVGFEColorMatrixElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFEColorMatrixElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEColorMatrixElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFEComponentTransferElementWrappingImplementation **************
 $inherits(SVGFEComponentTransferElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -2910,12 +2744,6 @@ SVGFEComponentTransferElementWrappingImplementation.prototype.get$height = funct
 SVGFEComponentTransferElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEComponentTransferElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEComponentTransferElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEConvolveMatrixElementWrappingImplementation **************
 $inherits(SVGFEConvolveMatrixElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEConvolveMatrixElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2928,12 +2756,6 @@ SVGFEConvolveMatrixElementWrappingImplementation.prototype.get$height = function
 }
 SVGFEConvolveMatrixElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFEConvolveMatrixElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEConvolveMatrixElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFEDiffuseLightingElementWrappingImplementation **************
 $inherits(SVGFEDiffuseLightingElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -2948,12 +2770,6 @@ SVGFEDiffuseLightingElementWrappingImplementation.prototype.get$height = functio
 SVGFEDiffuseLightingElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEDiffuseLightingElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEDiffuseLightingElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEDisplacementMapElementWrappingImplementation **************
 $inherits(SVGFEDisplacementMapElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEDisplacementMapElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -2966,12 +2782,6 @@ SVGFEDisplacementMapElementWrappingImplementation.prototype.get$height = functio
 }
 SVGFEDisplacementMapElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFEDisplacementMapElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEDisplacementMapElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFEDistantLightElementWrappingImplementation **************
 $inherits(SVGFEDistantLightElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -2993,12 +2803,6 @@ SVGFEDropShadowElementWrappingImplementation.prototype.get$height = function() {
 SVGFEDropShadowElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEDropShadowElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEDropShadowElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEFloodElementWrappingImplementation **************
 $inherits(SVGFEFloodElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEFloodElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3011,12 +2815,6 @@ SVGFEFloodElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGFEFloodElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFEFloodElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEFloodElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFEFuncAElementWrappingImplementation **************
 $inherits(SVGFEFuncAElementWrappingImplementation, SVGComponentTransferFunctionElementWrappingImplementation);
@@ -3059,12 +2857,6 @@ SVGFEGaussianBlurElementWrappingImplementation.prototype.get$height = function()
 SVGFEGaussianBlurElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEGaussianBlurElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEGaussianBlurElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEImageElementWrappingImplementation **************
 $inherits(SVGFEImageElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEImageElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3078,12 +2870,6 @@ SVGFEImageElementWrappingImplementation.prototype.get$height = function() {
 SVGFEImageElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEImageElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEImageElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEMergeElementWrappingImplementation **************
 $inherits(SVGFEMergeElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEMergeElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3096,12 +2882,6 @@ SVGFEMergeElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGFEMergeElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFEMergeElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEMergeElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFEMergeNodeElementWrappingImplementation **************
 $inherits(SVGFEMergeNodeElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -3123,12 +2903,6 @@ SVGFEOffsetElementWrappingImplementation.prototype.get$height = function() {
 SVGFEOffsetElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFEOffsetElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFEOffsetElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFEPointLightElementWrappingImplementation **************
 $inherits(SVGFEPointLightElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFEPointLightElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3136,12 +2910,6 @@ SVGFEPointLightElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGFEPointLightElementWrappingImplementation._wrap$ctor.prototype = SVGFEPointLightElementWrappingImplementation.prototype;
 function SVGFEPointLightElementWrappingImplementation() {}
-SVGFEPointLightElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedNumber(this._ptr.get$x());
-}
-SVGFEPointLightElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedNumber(this._ptr.get$y());
-}
 // ********** Code for SVGFESpecularLightingElementWrappingImplementation **************
 $inherits(SVGFESpecularLightingElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFESpecularLightingElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3155,12 +2923,6 @@ SVGFESpecularLightingElementWrappingImplementation.prototype.get$height = functi
 SVGFESpecularLightingElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFESpecularLightingElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFESpecularLightingElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFESpotLightElementWrappingImplementation **************
 $inherits(SVGFESpotLightElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFESpotLightElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3168,12 +2930,6 @@ SVGFESpotLightElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGFESpotLightElementWrappingImplementation._wrap$ctor.prototype = SVGFESpotLightElementWrappingImplementation.prototype;
 function SVGFESpotLightElementWrappingImplementation() {}
-SVGFESpotLightElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedNumber(this._ptr.get$x());
-}
-SVGFESpotLightElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedNumber(this._ptr.get$y());
-}
 // ********** Code for SVGFETileElementWrappingImplementation **************
 $inherits(SVGFETileElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFETileElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3186,12 +2942,6 @@ SVGFETileElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGFETileElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFETileElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFETileElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFETurbulenceElementWrappingImplementation **************
 $inherits(SVGFETurbulenceElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -3206,12 +2956,6 @@ SVGFETurbulenceElementWrappingImplementation.prototype.get$height = function() {
 SVGFETurbulenceElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGFETurbulenceElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFETurbulenceElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGFilterElementWrappingImplementation **************
 $inherits(SVGFilterElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGFilterElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3224,12 +2968,6 @@ SVGFilterElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGFilterElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGFilterElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGFilterElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGFontElementWrappingImplementation **************
 $inherits(SVGFontElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -3286,12 +3024,6 @@ SVGForeignObjectElementWrappingImplementation.prototype.get$height = function() 
 SVGForeignObjectElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGForeignObjectElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGForeignObjectElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGGElementWrappingImplementation **************
 $inherits(SVGGElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGGElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3313,12 +3045,6 @@ SVGGlyphRefElementWrappingImplementation._wrap$ctor = function(ptr) {
 }
 SVGGlyphRefElementWrappingImplementation._wrap$ctor.prototype = SVGGlyphRefElementWrappingImplementation.prototype;
 function SVGGlyphRefElementWrappingImplementation() {}
-SVGGlyphRefElementWrappingImplementation.prototype.get$x = function() {
-  return this._ptr.get$x();
-}
-SVGGlyphRefElementWrappingImplementation.prototype.get$y = function() {
-  return this._ptr.get$y();
-}
 // ********** Code for SVGGradientElementWrappingImplementation **************
 $inherits(SVGGradientElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGGradientElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3345,12 +3071,6 @@ SVGImageElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGImageElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGImageElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGImageElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGLineElementWrappingImplementation **************
 $inherits(SVGLineElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -3393,12 +3113,6 @@ SVGMaskElementWrappingImplementation.prototype.get$height = function() {
 SVGMaskElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGMaskElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGMaskElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGMetadataElementWrappingImplementation **************
 $inherits(SVGMetadataElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGMetadataElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3433,12 +3147,6 @@ SVGPatternElementWrappingImplementation.prototype.get$height = function() {
 SVGPatternElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGPatternElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGPatternElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for SVGPolygonElementWrappingImplementation **************
 $inherits(SVGPolygonElementWrappingImplementation, SVGElementWrappingImplementation);
 SVGPolygonElementWrappingImplementation._wrap$ctor = function(ptr) {
@@ -3472,12 +3180,6 @@ SVGRectElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGRectElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGRectElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGRectElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGScriptElementWrappingImplementation **************
 $inherits(SVGScriptElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -3568,12 +3270,6 @@ SVGUseElementWrappingImplementation.prototype.get$height = function() {
 }
 SVGUseElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
-}
-SVGUseElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGUseElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
 }
 // ********** Code for SVGVKernElementWrappingImplementation **************
 $inherits(SVGVKernElementWrappingImplementation, SVGElementWrappingImplementation);
@@ -5231,12 +4927,6 @@ LevelDom.wrapNode = function(raw) {
 LevelDom.wrapSVGAnimatedLength = function(raw) {
   return null == raw ? null : null != raw.get$dartObjectLocalStorage() ? raw.get$dartObjectLocalStorage() : new SVGAnimatedLengthWrappingImplementation._wrap$ctor(raw);
 }
-LevelDom.wrapSVGAnimatedLengthList = function(raw) {
-  return null == raw ? null : null != raw.get$dartObjectLocalStorage() ? raw.get$dartObjectLocalStorage() : new SVGAnimatedLengthListWrappingImplementation._wrap$ctor(raw);
-}
-LevelDom.wrapSVGAnimatedNumber = function(raw) {
-  return null == raw ? null : null != raw.get$dartObjectLocalStorage() ? raw.get$dartObjectLocalStorage() : new SVGAnimatedNumberWrappingImplementation._wrap$ctor(raw);
-}
 LevelDom.wrapWindow = function(raw) {
   return null == raw ? null : null != raw.get$dartObjectLocalStorage() ? raw.get$dartObjectLocalStorage() : new WindowWrappingImplementation._wrap$ctor(raw);
 }
@@ -5249,11 +4939,6 @@ LevelDom.unwrap = function(raw) {
 LevelDom.initialize = function() {
   $globals.secretWindow = LevelDom.wrapWindow(get$$window());
   $globals.secretDocument = LevelDom.wrapDocument(get$$document());
-}
-// ********** Code for PointFactoryProvider **************
-function PointFactoryProvider() {}
-PointFactoryProvider.Point$factory = function(x, y) {
-  return new PointWrappingImplementation._wrap$ctor(_WebKitPointFactoryProvider.WebKitPoint$factory(x, y));
 }
 // ********** Code for AnimationEventWrappingImplementation **************
 $inherits(AnimationEventWrappingImplementation, EventWrappingImplementation);
@@ -5447,12 +5132,6 @@ MouseEventWrappingImplementation._wrap$ctor = function(ptr) {
 }
 MouseEventWrappingImplementation._wrap$ctor.prototype = MouseEventWrappingImplementation.prototype;
 function MouseEventWrappingImplementation() {}
-MouseEventWrappingImplementation.prototype.get$x = function() {
-  return this._ptr.get$x();
-}
-MouseEventWrappingImplementation.prototype.get$y = function() {
-  return this._ptr.get$y();
-}
 // ********** Code for MutationEventWrappingImplementation **************
 $inherits(MutationEventWrappingImplementation, EventWrappingImplementation);
 MutationEventWrappingImplementation._wrap$ctor = function(ptr) {
@@ -5605,12 +5284,6 @@ SVGSVGElementWrappingImplementation.prototype.get$height = function() {
 SVGSVGElementWrappingImplementation.prototype.get$width = function() {
   return LevelDom.wrapSVGAnimatedLength(this._ptr.get$width());
 }
-SVGSVGElementWrappingImplementation.prototype.get$x = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$x());
-}
-SVGSVGElementWrappingImplementation.prototype.get$y = function() {
-  return LevelDom.wrapSVGAnimatedLength(this._ptr.get$y());
-}
 // ********** Code for TextEventWrappingImplementation **************
 $inherits(TextEventWrappingImplementation, UIEventWrappingImplementation);
 TextEventWrappingImplementation._wrap$ctor = function(ptr) {
@@ -5639,12 +5312,6 @@ WheelEventWrappingImplementation._wrap$ctor = function(ptr) {
 }
 WheelEventWrappingImplementation._wrap$ctor.prototype = WheelEventWrappingImplementation.prototype;
 function WheelEventWrappingImplementation() {}
-WheelEventWrappingImplementation.prototype.get$x = function() {
-  return this._ptr.get$x();
-}
-WheelEventWrappingImplementation.prototype.get$y = function() {
-  return this._ptr.get$y();
-}
 // ********** Code for WindowWrappingImplementation **************
 $inherits(WindowWrappingImplementation, EventTargetWrappingImplementation);
 WindowWrappingImplementation._wrap$ctor = function(ptr) {
@@ -5818,29 +5485,29 @@ Ribbon09.prototype.moveParticles = function() {
       this.context.moveTo(p.x, p.y);
     }
     else {
-      var point_a = PointFactoryProvider.Point$factory(nbB.x + (20) * Math.cos(nbB.angle + (1.570796)), nbB.y + (20) * Math.sin(nbB.angle + (1.570796)));
-      var point_b = PointFactoryProvider.Point$factory(nbB.x - (20) * Math.cos(nbB.angle + (1.570796)), nbB.y - (20) * Math.sin(nbB.angle + (1.570796)));
-      var point_c = PointFactoryProvider.Point$factory(p.x + (20) * Math.cos(p.angle + (1.570796)), p.y + (20) * Math.sin(p.angle + (1.570796)));
-      var point_d = PointFactoryProvider.Point$factory(p.x - (20) * Math.cos(p.angle + (1.570796)), p.y - (20) * Math.sin(p.angle + (1.570796)));
-      var point_e = PointFactoryProvider.Point$factory(nb.x + (20) * Math.cos(nb.angle + (1.570796)), nb.y + (20) * Math.sin(nb.angle + (1.570796)));
-      var point_f = PointFactoryProvider.Point$factory(nb.x - (20) * Math.cos(nb.angle + (1.570796)), nb.y - (20) * Math.sin(nb.angle + (1.570796)));
-      var point_ac = PointFactoryProvider.Point$factory(point_a.get$x() + (point_c.get$x() - point_a.get$x()) * (0.5), point_a.get$y() + (point_c.get$y() - point_a.get$y()) * (0.5));
-      var point_ce = PointFactoryProvider.Point$factory(point_c.get$x() + (point_e.get$x() - point_c.get$x()) * (0.5), point_c.get$y() + (point_e.get$y() - point_c.get$y()) * (0.5));
-      var point_bd = PointFactoryProvider.Point$factory(point_b.get$x() + (point_d.get$x() - point_b.get$x()) * (0.5), point_b.get$y() + (point_d.get$y() - point_b.get$y()) * (0.5));
-      var point_df = PointFactoryProvider.Point$factory(point_d.get$x() + (point_f.get$x() - point_d.get$x()) * (0.5), point_d.get$y() + (point_f.get$y() - point_d.get$y()) * (0.5));
+      var point_a = new Point2D(nbB.x + (20) * Math.cos(nbB.angle + (1.570796)), nbB.y + (20) * Math.sin(nbB.angle + (1.570796)));
+      var point_b = new Point2D(nbB.x - (20) * Math.cos(nbB.angle + (1.570796)), nbB.y - (20) * Math.sin(nbB.angle + (1.570796)));
+      var point_c = new Point2D(p.x + (20) * Math.cos(p.angle + (1.570796)), p.y + (20) * Math.sin(p.angle + (1.570796)));
+      var point_d = new Point2D(p.x - (20) * Math.cos(p.angle + (1.570796)), p.y - (20) * Math.sin(p.angle + (1.570796)));
+      var point_e = new Point2D(nb.x + (20) * Math.cos(nb.angle + (1.570796)), nb.y + (20) * Math.sin(nb.angle + (1.570796)));
+      var point_f = new Point2D(nb.x - (20) * Math.cos(nb.angle + (1.570796)), nb.y - (20) * Math.sin(nb.angle + (1.570796)));
+      var point_ac = new Point2D(point_a.x + (point_c.x - point_a.x) * (0.5), point_a.y + (point_c.y - point_a.y) * (0.5));
+      var point_ce = new Point2D(point_c.x + (point_e.x - point_c.x) * (0.5), point_c.y + (point_e.y - point_c.y) * (0.5));
+      var point_bd = new Point2D(point_b.x + (point_d.x - point_b.x) * (0.5), point_b.y + (point_d.y - point_b.y) * (0.5));
+      var point_df = new Point2D(point_d.x + (point_f.x - point_d.x) * (0.5), point_d.y + (point_f.y - point_d.y) * (0.5));
       this.context.beginPath();
       this.context.set$lineWidth((1));
-      this.context.moveTo(point_a.get$x(), point_a.get$y());
-      this.context.lineTo(point_b.get$x(), point_b.get$y());
-      this.context.lineTo(point_bd.get$x(), point_bd.get$y());
-      this.context.lineTo(point_d.get$x(), point_d.get$y());
-      this.context.lineTo(point_df.get$x(), point_df.get$y());
-      this.context.lineTo(point_f.get$x(), point_f.get$y());
-      this.context.lineTo(point_e.get$x(), point_e.get$y());
-      this.context.lineTo(point_ce.get$x(), point_ce.get$y());
-      this.context.lineTo(point_c.get$x(), point_c.get$y());
-      this.context.lineTo(point_ac.get$x(), point_ac.get$y());
-      this.context.lineTo(point_a.get$x(), point_a.get$y());
+      this.context.moveTo(point_a.x, point_a.y);
+      this.context.lineTo(point_b.x, point_b.y);
+      this.context.lineTo(point_bd.x, point_bd.y);
+      this.context.lineTo(point_d.x, point_d.y);
+      this.context.lineTo(point_df.x, point_df.y);
+      this.context.lineTo(point_f.x, point_f.y);
+      this.context.lineTo(point_e.x, point_e.y);
+      this.context.lineTo(point_ce.x, point_ce.y);
+      this.context.lineTo(point_c.x, point_c.y);
+      this.context.lineTo(point_ac.x, point_ac.y);
+      this.context.lineTo(point_a.x, point_a.y);
       this.context.set$lineJoin("round");
       this.context.set$lineCap("round");
       this.context.set$strokeStyle(p.color.toInt().toRadixString((16)));
@@ -5871,13 +5538,16 @@ function Particle(x, y, xSpeed, ySpeed, radius, color) {
   this.y = y;
   this.ySpeed = ySpeed;
 }
-Particle.prototype.get$x = function() { return this.x; };
-Particle.prototype.get$y = function() { return this.y; };
+// ********** Code for Point2D **************
+function Point2D(x, y) {
+  this.x = x;
+  this.y = y;
+}
 // ********** Code for top level **************
 function main() {
   new Ribbon09().run();
 }
-// 149 dynamic types.
+// 122 dynamic types.
 // 504 types
 // 44 !leaf
 function $dynamicSetMetadata(inputTable) {
@@ -5898,39 +5568,37 @@ function $dynamicSetMetadata(inputTable) {
 (function(){
   var v0/*CharacterData*/ = 'CharacterData|Comment|Text|CDATASection';
   var v1/*Document*/ = 'Document|HTMLDocument|SVGDocument';
-  var v2/*SVGTextPositioningElement*/ = 'SVGTextPositioningElement|SVGAltGlyphElement|SVGTRefElement|SVGTSpanElement|SVGTextElement';
-  var v3/*AbstractWorker*/ = 'AbstractWorker|SharedWorker|Worker';
-  var v4/*Node*/ = [v0/*CharacterData*/,v1/*Document*/,v2/*SVGTextPositioningElement*/,'Node|Attr|DocumentFragment|ShadowRoot|DocumentType|Element|HTMLElement|HTMLAnchorElement|HTMLAppletElement|HTMLAreaElement|HTMLBRElement|HTMLBaseElement|HTMLBaseFontElement|HTMLBodyElement|HTMLButtonElement|HTMLCanvasElement|HTMLContentElement|HTMLDListElement|HTMLDetailsElement|HTMLDirectoryElement|HTMLDivElement|HTMLEmbedElement|HTMLFieldSetElement|HTMLFontElement|HTMLFormElement|HTMLFrameElement|HTMLFrameSetElement|HTMLHRElement|HTMLHeadElement|HTMLHeadingElement|HTMLHtmlElement|HTMLIFrameElement|HTMLImageElement|HTMLInputElement|HTMLKeygenElement|HTMLLIElement|HTMLLabelElement|HTMLLegendElement|HTMLLinkElement|HTMLMapElement|HTMLMarqueeElement|HTMLMediaElement|HTMLAudioElement|HTMLVideoElement|HTMLMenuElement|HTMLMetaElement|HTMLMeterElement|HTMLModElement|HTMLOListElement|HTMLObjectElement|HTMLOptGroupElement|HTMLOptionElement|HTMLOutputElement|HTMLParagraphElement|HTMLParamElement|HTMLPreElement|HTMLProgressElement|HTMLQuoteElement|HTMLScriptElement|HTMLSelectElement|HTMLShadowElement|HTMLSourceElement|HTMLSpanElement|HTMLStyleElement|HTMLTableCaptionElement|HTMLTableCellElement|HTMLTableColElement|HTMLTableElement|HTMLTableRowElement|HTMLTableSectionElement|HTMLTextAreaElement|HTMLTitleElement|HTMLTrackElement|HTMLUListElement|HTMLUnknownElement|SVGElement|SVGAElement|SVGAltGlyphDefElement|SVGAltGlyphItemElement|SVGAnimationElement|SVGAnimateColorElement|SVGAnimateElement|SVGAnimateMotionElement|SVGAnimateTransformElement|SVGSetElement|SVGCircleElement|SVGClipPathElement|SVGComponentTransferFunctionElement|SVGFEFuncAElement|SVGFEFuncBElement|SVGFEFuncGElement|SVGFEFuncRElement|SVGCursorElement|SVGDefsElement|SVGDescElement|SVGEllipseElement|SVGFEBlendElement|SVGFEColorMatrixElement|SVGFEComponentTransferElement|SVGFECompositeElement|SVGFEConvolveMatrixElement|SVGFEDiffuseLightingElement|SVGFEDisplacementMapElement|SVGFEDistantLightElement|SVGFEDropShadowElement|SVGFEFloodElement|SVGFEGaussianBlurElement|SVGFEImageElement|SVGFEMergeElement|SVGFEMergeNodeElement|SVGFEMorphologyElement|SVGFEOffsetElement|SVGFEPointLightElement|SVGFESpecularLightingElement|SVGFESpotLightElement|SVGFETileElement|SVGFETurbulenceElement|SVGFilterElement|SVGFontElement|SVGFontFaceElement|SVGFontFaceFormatElement|SVGFontFaceNameElement|SVGFontFaceSrcElement|SVGFontFaceUriElement|SVGForeignObjectElement|SVGGElement|SVGGlyphElement|SVGGlyphRefElement|SVGGradientElement|SVGLinearGradientElement|SVGRadialGradientElement|SVGHKernElement|SVGImageElement|SVGLineElement|SVGMPathElement|SVGMarkerElement|SVGMaskElement|SVGMetadataElement|SVGMissingGlyphElement|SVGPathElement|SVGPatternElement|SVGPolygonElement|SVGPolylineElement|SVGRectElement|SVGSVGElement|SVGScriptElement|SVGStopElement|SVGStyleElement|SVGSwitchElement|SVGSymbolElement|SVGTextContentElement|SVGTextPathElement|SVGTitleElement|SVGUseElement|SVGVKernElement|SVGViewElement|Entity|EntityReference|Notation|ProcessingInstruction'].join('|');
-  var v5/*Uint8Array*/ = 'Uint8Array|Uint8ClampedArray';
-  var v6/*CSSValueList*/ = 'CSSValueList|WebKitCSSTransformValue';
-  var v7/*DOMTokenList*/ = 'DOMTokenList|DOMSettableTokenList';
-  var v8/*Entry*/ = 'Entry|DirectoryEntry|FileEntry';
-  var v9/*EntrySync*/ = 'EntrySync|DirectoryEntrySync|FileEntrySync';
-  var v10/*UIEvent*/ = 'UIEvent|CompositionEvent|KeyboardEvent|MouseEvent|SVGZoomEvent|TextEvent|TouchEvent|WheelEvent';
-  var v11/*EventTarget*/ = [v3/*AbstractWorker*/,v4/*Node*/,'EventTarget|DOMApplicationCache|DOMWindow|EventSource|MessagePort|Notification|SVGElementInstance|WebSocket|XMLHttpRequest|XMLHttpRequestUpload'].join('|');
-  var v12/*HTMLCollection*/ = 'HTMLCollection|HTMLOptionsCollection';
-  var v13/*IDBRequest*/ = 'IDBRequest|IDBVersionChangeRequest';
-  var v14/*MediaStream*/ = 'MediaStream|LocalMediaStream';
-  var v15/*WorkerContext*/ = 'WorkerContext|DedicatedWorkerContext|SharedWorkerContext';
+  var v2/*AbstractWorker*/ = 'AbstractWorker|SharedWorker|Worker';
+  var v3/*Node*/ = [v0/*CharacterData*/,v1/*Document*/,'Node|Attr|DocumentFragment|ShadowRoot|DocumentType|Element|HTMLElement|HTMLAnchorElement|HTMLAppletElement|HTMLAreaElement|HTMLBRElement|HTMLBaseElement|HTMLBaseFontElement|HTMLBodyElement|HTMLButtonElement|HTMLCanvasElement|HTMLContentElement|HTMLDListElement|HTMLDetailsElement|HTMLDirectoryElement|HTMLDivElement|HTMLEmbedElement|HTMLFieldSetElement|HTMLFontElement|HTMLFormElement|HTMLFrameElement|HTMLFrameSetElement|HTMLHRElement|HTMLHeadElement|HTMLHeadingElement|HTMLHtmlElement|HTMLIFrameElement|HTMLImageElement|HTMLInputElement|HTMLKeygenElement|HTMLLIElement|HTMLLabelElement|HTMLLegendElement|HTMLLinkElement|HTMLMapElement|HTMLMarqueeElement|HTMLMediaElement|HTMLAudioElement|HTMLVideoElement|HTMLMenuElement|HTMLMetaElement|HTMLMeterElement|HTMLModElement|HTMLOListElement|HTMLObjectElement|HTMLOptGroupElement|HTMLOptionElement|HTMLOutputElement|HTMLParagraphElement|HTMLParamElement|HTMLPreElement|HTMLProgressElement|HTMLQuoteElement|HTMLScriptElement|HTMLSelectElement|HTMLShadowElement|HTMLSourceElement|HTMLSpanElement|HTMLStyleElement|HTMLTableCaptionElement|HTMLTableCellElement|HTMLTableColElement|HTMLTableElement|HTMLTableRowElement|HTMLTableSectionElement|HTMLTextAreaElement|HTMLTitleElement|HTMLTrackElement|HTMLUListElement|HTMLUnknownElement|SVGElement|SVGAElement|SVGAltGlyphDefElement|SVGAltGlyphItemElement|SVGAnimationElement|SVGAnimateColorElement|SVGAnimateElement|SVGAnimateMotionElement|SVGAnimateTransformElement|SVGSetElement|SVGCircleElement|SVGClipPathElement|SVGComponentTransferFunctionElement|SVGFEFuncAElement|SVGFEFuncBElement|SVGFEFuncGElement|SVGFEFuncRElement|SVGCursorElement|SVGDefsElement|SVGDescElement|SVGEllipseElement|SVGFEBlendElement|SVGFEColorMatrixElement|SVGFEComponentTransferElement|SVGFECompositeElement|SVGFEConvolveMatrixElement|SVGFEDiffuseLightingElement|SVGFEDisplacementMapElement|SVGFEDistantLightElement|SVGFEDropShadowElement|SVGFEFloodElement|SVGFEGaussianBlurElement|SVGFEImageElement|SVGFEMergeElement|SVGFEMergeNodeElement|SVGFEMorphologyElement|SVGFEOffsetElement|SVGFEPointLightElement|SVGFESpecularLightingElement|SVGFESpotLightElement|SVGFETileElement|SVGFETurbulenceElement|SVGFilterElement|SVGFontElement|SVGFontFaceElement|SVGFontFaceFormatElement|SVGFontFaceNameElement|SVGFontFaceSrcElement|SVGFontFaceUriElement|SVGForeignObjectElement|SVGGElement|SVGGlyphElement|SVGGlyphRefElement|SVGGradientElement|SVGLinearGradientElement|SVGRadialGradientElement|SVGHKernElement|SVGImageElement|SVGLineElement|SVGMPathElement|SVGMarkerElement|SVGMaskElement|SVGMetadataElement|SVGMissingGlyphElement|SVGPathElement|SVGPatternElement|SVGPolygonElement|SVGPolylineElement|SVGRectElement|SVGSVGElement|SVGScriptElement|SVGStopElement|SVGStyleElement|SVGSwitchElement|SVGSymbolElement|SVGTextContentElement|SVGTextPathElement|SVGTextPositioningElement|SVGAltGlyphElement|SVGTRefElement|SVGTSpanElement|SVGTextElement|SVGTitleElement|SVGUseElement|SVGVKernElement|SVGViewElement|Entity|EntityReference|Notation|ProcessingInstruction'].join('|');
+  var v4/*Uint8Array*/ = 'Uint8Array|Uint8ClampedArray';
+  var v5/*CSSValueList*/ = 'CSSValueList|WebKitCSSTransformValue';
+  var v6/*DOMTokenList*/ = 'DOMTokenList|DOMSettableTokenList';
+  var v7/*Entry*/ = 'Entry|DirectoryEntry|FileEntry';
+  var v8/*EntrySync*/ = 'EntrySync|DirectoryEntrySync|FileEntrySync';
+  var v9/*UIEvent*/ = 'UIEvent|CompositionEvent|KeyboardEvent|MouseEvent|SVGZoomEvent|TextEvent|TouchEvent|WheelEvent';
+  var v10/*EventTarget*/ = [v2/*AbstractWorker*/,v3/*Node*/,'EventTarget|DOMApplicationCache|DOMWindow|EventSource|MessagePort|Notification|SVGElementInstance|WebSocket|XMLHttpRequest|XMLHttpRequestUpload'].join('|');
+  var v11/*HTMLCollection*/ = 'HTMLCollection|HTMLOptionsCollection';
+  var v12/*IDBRequest*/ = 'IDBRequest|IDBVersionChangeRequest';
+  var v13/*MediaStream*/ = 'MediaStream|LocalMediaStream';
+  var v14/*WorkerContext*/ = 'WorkerContext|DedicatedWorkerContext|SharedWorkerContext';
   var table = [
     // [dynamic-dispatch-tag, tags of classes implementing dynamic-dispatch-tag]
-    ['AbstractWorker', v3/*AbstractWorker*/]
-    , ['CSSValueList', v6/*CSSValueList*/]
+    ['AbstractWorker', v2/*AbstractWorker*/]
+    , ['CSSValueList', v5/*CSSValueList*/]
     , ['CharacterData', v0/*CharacterData*/]
-    , ['DOMTokenList', v7/*DOMTokenList*/]
+    , ['DOMTokenList', v6/*DOMTokenList*/]
     , ['Document', v1/*Document*/]
-    , ['Entry', v8/*Entry*/]
-    , ['EntrySync', v9/*EntrySync*/]
-    , ['SVGTextPositioningElement', v2/*SVGTextPositioningElement*/]
-    , ['Node', v4/*Node*/]
-    , ['EventTarget', v11/*EventTarget*/]
-    , ['HTMLCollection', v12/*HTMLCollection*/]
-    , ['IDBRequest', v13/*IDBRequest*/]
-    , ['MediaStream', v14/*MediaStream*/]
-    , ['UIEvent', v10/*UIEvent*/]
-    , ['Uint8Array', v5/*Uint8Array*/]
-    , ['WorkerContext', v15/*WorkerContext*/]
-    , ['DOMType', [v5/*Uint8Array*/,v6/*CSSValueList*/,v7/*DOMTokenList*/,v8/*Entry*/,v9/*EntrySync*/,v10/*UIEvent*/,v11/*EventTarget*/,v12/*HTMLCollection*/,v13/*IDBRequest*/,v14/*MediaStream*/,v15/*WorkerContext*/,'DOMType|ArrayBuffer|ArrayBufferView|DataView|Float32Array|Float64Array|Int16Array|Int32Array|Int8Array|Uint16Array|Uint32Array|AudioBuffer|AudioContext|AudioListener|AudioNode|AudioChannelMerger|AudioChannelSplitter|AudioDestinationNode|AudioGainNode|AudioPannerNode|AudioSourceNode|AudioBufferSourceNode|MediaElementAudioSourceNode|BiquadFilterNode|ConvolverNode|DelayNode|DynamicsCompressorNode|HighPass2FilterNode|JavaScriptAudioNode|LowPass2FilterNode|RealtimeAnalyserNode|WaveShaperNode|AudioParam|AudioGain|BarInfo|Blob|File|CSSRule|CSSCharsetRule|CSSFontFaceRule|CSSImportRule|CSSMediaRule|CSSPageRule|CSSStyleRule|CSSUnknownRule|WebKitCSSKeyframeRule|WebKitCSSKeyframesRule|WebKitCSSRegionRule|CSSRuleList|CSSStyleDeclaration|CSSValue|CSSPrimitiveValue|SVGColor|SVGPaint|CanvasGradient|CanvasPattern|CanvasPixelArray|CanvasRenderingContext|CanvasRenderingContext2D|WebGLRenderingContext|ClientRect|ClientRectList|Clipboard|Coordinates|Counter|Crypto|DOMException|DOMFileSystem|DOMFileSystemSync|DOMFormData|DOMImplementation|DOMMimeType|DOMMimeTypeArray|DOMParser|DOMPlugin|DOMPluginArray|DOMSelection|DOMURL|DataTransferItem|DataTransferItemList|Database|DatabaseSync|DirectoryReader|DirectoryReaderSync|ElementTimeControl|ElementTraversal|EntryArray|EntryArraySync|Event|AudioProcessingEvent|BeforeLoadEvent|CloseEvent|CustomEvent|DeviceMotionEvent|DeviceOrientationEvent|ErrorEvent|HashChangeEvent|IDBVersionChangeEvent|MediaStreamEvent|MessageEvent|MutationEvent|OfflineAudioCompletionEvent|OverflowEvent|PageTransitionEvent|PopStateEvent|ProgressEvent|XMLHttpRequestProgressEvent|SpeechInputEvent|StorageEvent|TrackEvent|WebGLContextEvent|WebKitAnimationEvent|WebKitTransitionEvent|EventException|FileError|FileException|FileList|FileReader|FileReaderSync|FileWriter|FileWriterSync|Geolocation|Geoposition|HTMLAllCollection|History|IDBAny|IDBCursor|IDBCursorWithValue|IDBDatabase|IDBDatabaseError|IDBDatabaseException|IDBFactory|IDBIndex|IDBKey|IDBKeyRange|IDBObjectStore|IDBTransaction|ImageData|JavaScriptCallFrame|Location|MediaController|MediaError|MediaList|MediaQueryList|MediaQueryListListener|MediaStreamList|MediaStreamTrack|MediaStreamTrackList|MemoryInfo|MessageChannel|Metadata|NamedNodeMap|Navigator|NavigatorUserMediaError|NodeFilter|NodeIterator|NodeList|NodeSelector|NotificationCenter|OESStandardDerivatives|OESTextureFloat|OESVertexArrayObject|OperationNotAllowedException|PeerConnection|Performance|PerformanceNavigation|PerformanceTiming|PositionError|RGBColor|Range|RangeException|Rect|SQLError|SQLException|SQLResultSet|SQLResultSetRowList|SQLTransaction|SQLTransactionSync|SVGAngle|SVGAnimatedAngle|SVGAnimatedBoolean|SVGAnimatedEnumeration|SVGAnimatedInteger|SVGAnimatedLength|SVGAnimatedLengthList|SVGAnimatedNumber|SVGAnimatedNumberList|SVGAnimatedPreserveAspectRatio|SVGAnimatedRect|SVGAnimatedString|SVGAnimatedTransformList|SVGElementInstanceList|SVGException|SVGExternalResourcesRequired|SVGFitToViewBox|SVGLangSpace|SVGLength|SVGLengthList|SVGLocatable|SVGTransformable|SVGMatrix|SVGNumber|SVGNumberList|SVGPathSeg|SVGPathSegArcAbs|SVGPathSegArcRel|SVGPathSegClosePath|SVGPathSegCurvetoCubicAbs|SVGPathSegCurvetoCubicRel|SVGPathSegCurvetoCubicSmoothAbs|SVGPathSegCurvetoCubicSmoothRel|SVGPathSegCurvetoQuadraticAbs|SVGPathSegCurvetoQuadraticRel|SVGPathSegCurvetoQuadraticSmoothAbs|SVGPathSegCurvetoQuadraticSmoothRel|SVGPathSegLinetoAbs|SVGPathSegLinetoHorizontalAbs|SVGPathSegLinetoHorizontalRel|SVGPathSegLinetoRel|SVGPathSegLinetoVerticalAbs|SVGPathSegLinetoVerticalRel|SVGPathSegMovetoAbs|SVGPathSegMovetoRel|SVGPathSegList|SVGPoint|SVGPointList|SVGPreserveAspectRatio|SVGRect|SVGRenderingIntent|SVGStringList|SVGStylable|SVGFilterPrimitiveStandardAttributes|SVGTests|SVGTransform|SVGTransformList|SVGURIReference|SVGUnitTypes|SVGZoomAndPan|SVGViewSpec|Screen|ScriptProfile|ScriptProfileNode|SpeechInputResult|SpeechInputResultList|Storage|StorageInfo|StyleMedia|StyleSheet|CSSStyleSheet|StyleSheetList|TextMetrics|TextTrack|TextTrackCue|TextTrackCueList|TextTrackList|TimeRanges|Touch|TouchList|TreeWalker|ValidityState|WebGLActiveInfo|WebGLBuffer|WebGLCompressedTextureS3TC|WebGLContextAttributes|WebGLDebugRendererInfo|WebGLDebugShaders|WebGLFramebuffer|WebGLLoseContext|WebGLProgram|WebGLRenderbuffer|WebGLShader|WebGLTexture|WebGLUniformLocation|WebGLVertexArrayObjectOES|WebKitAnimation|WebKitAnimationList|WebKitBlobBuilder|WebKitCSSMatrix|WebKitNamedFlow|WebKitPoint|WorkerLocation|WorkerNavigator|XMLHttpRequestException|XMLSerializer|XPathEvaluator|XPathException|XPathExpression|XPathNSResolver|XPathResult|XSLTProcessor'].join('|')]
+    , ['Entry', v7/*Entry*/]
+    , ['EntrySync', v8/*EntrySync*/]
+    , ['Node', v3/*Node*/]
+    , ['EventTarget', v10/*EventTarget*/]
+    , ['HTMLCollection', v11/*HTMLCollection*/]
+    , ['IDBRequest', v12/*IDBRequest*/]
+    , ['MediaStream', v13/*MediaStream*/]
+    , ['UIEvent', v9/*UIEvent*/]
+    , ['Uint8Array', v4/*Uint8Array*/]
+    , ['WorkerContext', v14/*WorkerContext*/]
+    , ['DOMType', [v4/*Uint8Array*/,v5/*CSSValueList*/,v6/*DOMTokenList*/,v7/*Entry*/,v8/*EntrySync*/,v9/*UIEvent*/,v10/*EventTarget*/,v11/*HTMLCollection*/,v12/*IDBRequest*/,v13/*MediaStream*/,v14/*WorkerContext*/,'DOMType|ArrayBuffer|ArrayBufferView|DataView|Float32Array|Float64Array|Int16Array|Int32Array|Int8Array|Uint16Array|Uint32Array|AudioBuffer|AudioContext|AudioListener|AudioNode|AudioChannelMerger|AudioChannelSplitter|AudioDestinationNode|AudioGainNode|AudioPannerNode|AudioSourceNode|AudioBufferSourceNode|MediaElementAudioSourceNode|BiquadFilterNode|ConvolverNode|DelayNode|DynamicsCompressorNode|HighPass2FilterNode|JavaScriptAudioNode|LowPass2FilterNode|RealtimeAnalyserNode|WaveShaperNode|AudioParam|AudioGain|BarInfo|Blob|File|CSSRule|CSSCharsetRule|CSSFontFaceRule|CSSImportRule|CSSMediaRule|CSSPageRule|CSSStyleRule|CSSUnknownRule|WebKitCSSKeyframeRule|WebKitCSSKeyframesRule|WebKitCSSRegionRule|CSSRuleList|CSSStyleDeclaration|CSSValue|CSSPrimitiveValue|SVGColor|SVGPaint|CanvasGradient|CanvasPattern|CanvasPixelArray|CanvasRenderingContext|CanvasRenderingContext2D|WebGLRenderingContext|ClientRect|ClientRectList|Clipboard|Coordinates|Counter|Crypto|DOMException|DOMFileSystem|DOMFileSystemSync|DOMFormData|DOMImplementation|DOMMimeType|DOMMimeTypeArray|DOMParser|DOMPlugin|DOMPluginArray|DOMSelection|DOMURL|DataTransferItem|DataTransferItemList|Database|DatabaseSync|DirectoryReader|DirectoryReaderSync|ElementTimeControl|ElementTraversal|EntryArray|EntryArraySync|Event|AudioProcessingEvent|BeforeLoadEvent|CloseEvent|CustomEvent|DeviceMotionEvent|DeviceOrientationEvent|ErrorEvent|HashChangeEvent|IDBVersionChangeEvent|MediaStreamEvent|MessageEvent|MutationEvent|OfflineAudioCompletionEvent|OverflowEvent|PageTransitionEvent|PopStateEvent|ProgressEvent|XMLHttpRequestProgressEvent|SpeechInputEvent|StorageEvent|TrackEvent|WebGLContextEvent|WebKitAnimationEvent|WebKitTransitionEvent|EventException|FileError|FileException|FileList|FileReader|FileReaderSync|FileWriter|FileWriterSync|Geolocation|Geoposition|HTMLAllCollection|History|IDBAny|IDBCursor|IDBCursorWithValue|IDBDatabase|IDBDatabaseError|IDBDatabaseException|IDBFactory|IDBIndex|IDBKey|IDBKeyRange|IDBObjectStore|IDBTransaction|ImageData|JavaScriptCallFrame|Location|MediaController|MediaError|MediaList|MediaQueryList|MediaQueryListListener|MediaStreamList|MediaStreamTrack|MediaStreamTrackList|MemoryInfo|MessageChannel|Metadata|NamedNodeMap|Navigator|NavigatorUserMediaError|NodeFilter|NodeIterator|NodeList|NodeSelector|NotificationCenter|OESStandardDerivatives|OESTextureFloat|OESVertexArrayObject|OperationNotAllowedException|PeerConnection|Performance|PerformanceNavigation|PerformanceTiming|PositionError|RGBColor|Range|RangeException|Rect|SQLError|SQLException|SQLResultSet|SQLResultSetRowList|SQLTransaction|SQLTransactionSync|SVGAngle|SVGAnimatedAngle|SVGAnimatedBoolean|SVGAnimatedEnumeration|SVGAnimatedInteger|SVGAnimatedLength|SVGAnimatedLengthList|SVGAnimatedNumber|SVGAnimatedNumberList|SVGAnimatedPreserveAspectRatio|SVGAnimatedRect|SVGAnimatedString|SVGAnimatedTransformList|SVGElementInstanceList|SVGException|SVGExternalResourcesRequired|SVGFitToViewBox|SVGLangSpace|SVGLength|SVGLengthList|SVGLocatable|SVGTransformable|SVGMatrix|SVGNumber|SVGNumberList|SVGPathSeg|SVGPathSegArcAbs|SVGPathSegArcRel|SVGPathSegClosePath|SVGPathSegCurvetoCubicAbs|SVGPathSegCurvetoCubicRel|SVGPathSegCurvetoCubicSmoothAbs|SVGPathSegCurvetoCubicSmoothRel|SVGPathSegCurvetoQuadraticAbs|SVGPathSegCurvetoQuadraticRel|SVGPathSegCurvetoQuadraticSmoothAbs|SVGPathSegCurvetoQuadraticSmoothRel|SVGPathSegLinetoAbs|SVGPathSegLinetoHorizontalAbs|SVGPathSegLinetoHorizontalRel|SVGPathSegLinetoRel|SVGPathSegLinetoVerticalAbs|SVGPathSegLinetoVerticalRel|SVGPathSegMovetoAbs|SVGPathSegMovetoRel|SVGPathSegList|SVGPoint|SVGPointList|SVGPreserveAspectRatio|SVGRect|SVGRenderingIntent|SVGStringList|SVGStylable|SVGFilterPrimitiveStandardAttributes|SVGTests|SVGTransform|SVGTransformList|SVGURIReference|SVGUnitTypes|SVGZoomAndPan|SVGViewSpec|Screen|ScriptProfile|ScriptProfileNode|SpeechInputResult|SpeechInputResultList|Storage|StorageInfo|StyleMedia|StyleSheet|CSSStyleSheet|StyleSheetList|TextMetrics|TextTrack|TextTrackCue|TextTrackCueList|TextTrackList|TimeRanges|Touch|TouchList|TreeWalker|ValidityState|WebGLActiveInfo|WebGLBuffer|WebGLCompressedTextureS3TC|WebGLContextAttributes|WebGLDebugRendererInfo|WebGLDebugShaders|WebGLFramebuffer|WebGLLoseContext|WebGLProgram|WebGLRenderbuffer|WebGLShader|WebGLTexture|WebGLUniformLocation|WebGLVertexArrayObjectOES|WebKitAnimation|WebKitAnimationList|WebKitBlobBuilder|WebKitCSSMatrix|WebKitNamedFlow|WebKitPoint|WorkerLocation|WorkerNavigator|XMLHttpRequestException|XMLSerializer|XPathEvaluator|XPathException|XPathExpression|XPathNSResolver|XPathResult|XSLTProcessor'].join('|')]
   ];
   $dynamicSetMetadata(table);
 })();
