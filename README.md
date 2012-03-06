@@ -6,6 +6,14 @@ NatzkeRibbons.dart
 This project ports [Erik Natzke's](http://blog.natzke.com/) Flash [Ribbons](http://www.natzke.com/source) to HTML5 Canvas, using the [Dart](http://www.dartlang.org/) language.
 
 
+#### Highlights ####
+
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/02_No_Segments/BitmapDraw02.html"><img src="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/02_No_Segments/thumb_small.png" width="104" height="78" alt="02_No_Segments"></a>
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/13_Rainbow_Ribbon_Fat/Ribbon13.html"><img src="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/13_Rainbow_Ribbon_Fat/thumb_small.png" width="104" height="78" alt="13_Rainbow_Ribbon_Fat"></a>
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/02_Cord/07_Curves/Cord07.html"><img src="http://robsilv.github.com/NatzkeRibbons.dart/02_Cord/07_Curves/thumb_small.png" width="104" height="78" alt="07_Curves"></a>
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/01_Particle/11_Circle_Distribution/ParticleEmitter11.html"><img src="http://robsilv.github.com/NatzkeRibbons.dart/01_Particle/11_Circle_Distribution/thumb_small.png" width="104" height="78" alt="11_Circle_Distribution"></a>
+    
+
 #### 04: Bitmap Draw ####
 
 <a href="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/03_More_Fluid/BitmapDraw03.html">03 - More Fluid</a><br />
