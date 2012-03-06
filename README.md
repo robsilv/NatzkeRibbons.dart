@@ -6,6 +6,13 @@ NatzkeRibbons.dart
 This project ports [Erik Natzke's](http://blog.natzke.com/) Flash [Ribbons](http://www.natzke.com/source) to HTML5 Canvas, using the [Dart](http://www.dartlang.org/) language.
 
 
+#### 04: Bitmap Draw ####
+
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/03_More_Fluid/BitmapDraw03.html">03 - More Fluid</a><br />
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/02_No_Segments/BitmapDraw02.html">02 - No Segments</a><br />
+<a href="http://robsilv.github.com/NatzkeRibbons.dart/04_Bitmap_Draw/01_Bitmap_Draw/BitmapDraw01.html">01 - Bitmap Draw</a><br />
+
+
 #### 03: Ribbons ####
 
 <a href="http://robsilv.github.com/NatzkeRibbons.dart/03_Ribbon/15_White_Ribbon_Long/Ribbon15.html">15 - White Ribbon Long</a><br />
