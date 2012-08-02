@@ -207,6 +207,7 @@ class Ribbon07
         context.moveTo(p.x, p.y);
       } else {
         num myAngle = nb.angle + Math.PI*.5;
+        
         context.quadraticCurveTo(p.x-20*Math.cos(myAngle), p.y-20*Math.sin(myAngle), nbB.midPointX-20*Math.cos(myAngle), nbB.midPointY-20*Math.sin(myAngle));
       }  
     } 
@@ -316,8 +317,13 @@ void main() {
 
 class Particle 
 {  
-  num x, y, xSpeed, ySpeed, radius, angle,
-  midPointX, midPointY, midPointXB, midPointYB, distance;
+  num x, y, xSpeed, ySpeed, radius;
+  num angle = 0;
+  num midPointX = 0;
+  num midPointY = 0;
+  num midPointXB = 0;
+  num midPointYB = 0;
+  num distance = 0;
   
   Particle( num this.x, num this.y, [num this.xSpeed = 0, num this.ySpeed = 0, num this.radius = 0] )
   { 

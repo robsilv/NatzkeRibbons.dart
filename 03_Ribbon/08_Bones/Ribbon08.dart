@@ -314,13 +314,19 @@ void main() {
 
 class Particle 
 {  
-  num x, y, xSpeed, ySpeed, radius, angle,
-  midPointX, midPointY, midPointXB, midPointYB, distance;
+  num x, y, xSpeed, ySpeed, radius;
+  num angle = 0;
+  num midPointX = 0;
+  num midPointY = 0;
+  num midPointXB = 0;
+  num midPointYB = 0;
+  num distance = 0;
   
   Particle( num this.x, num this.y, [num this.xSpeed = 0, num this.ySpeed = 0, num this.radius = 0] )
   { 
   }
 }
+
 
 class Point2D
 {
